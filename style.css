@@ -172,6 +172,7 @@ main {
   padding: 0;
   padding-left: 250px;
   padding-right: 250px;
+  margin-bottom: 80px;
 }
 
 .main__section_one {
@@ -436,6 +437,33 @@ main {
 
 .info_three_sec > p {
     padding-left: 50px;
+}
+
+.info_four  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.info_five  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.info_five_wrapper  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.info_five_sec > p {
+    word-wrap: wrap;
+    font-size: 20px;
 }
 
 footer {
