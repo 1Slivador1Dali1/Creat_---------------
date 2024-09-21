@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "Gotham Pro Bold", sans-serif;
+  src: url("./fonts/GothamPro-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro Regular", sans-serif;
+  src: url("./fonts/GothamPro.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro Medium", sans-serif;
+  src: url("./fonts/GothamPro-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Abel Regular", sans-serif;
+  src: url("./fonts/Abel-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-family: "Gotham Pro", sans-serif;
+  --second-family: "Abel", sans-serif;
+}
+
+body {
+  background: #171422;
+}
+
+header {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.section {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.header__menu {
+  max-width: 1920px;
+  height: 80px;
+  padding: 0 250px;
+  background: linear-gradient(132deg, #9e0b37 0%, #ffc531 71.98%, #9e0b37 100%);
+  align-content: center;
+}
+
+.menu__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__wrapper_left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 72px;
+}
+
+.menu__wrapper_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 42px;
+}
+
+.menu__item {
+  list-style: none;
+}
+
+.menu__item > a {
+  text-decoration: none;
+}
+
+.menu_popup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.button_rg {
+  border-radius: 40px;
+  padding: 16.5px 24px;
+  max-width: 160px;
+  max-height: 49px;
+  box-shadow: inset 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    4px 4px 20px 0 rgba(223, 80, 23, 0.8);
+  background: rgba(158, 11, 55, 0.7);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 17px;
+  color: #fff;
+}
+
+.tsh_Abel_R {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.tsh_GP_M {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
