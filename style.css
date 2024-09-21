@@ -114,15 +114,52 @@ header {
 }
 
 .tsh_Abel_R {
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 16px;
-    color: #fff;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
 }
 
 .tsh_GP_M {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.header__wrapper {
+  display: flex;
+  background: linear-gradient(
+    140deg,
+    #df5017 0%,
+    rgba(223, 80, 23, 0.44) 15%,
+    rgba(223, 80, 23, 0.19) 30%,
+    rgba(223, 80, 23, 0) 100%
+  ),
+  linear-gradient(
+    90deg,
+    #282533 0%,
+    #282533 45%,
+    rgba(40, 37, 51, 1) 10%,
+    rgba(40, 37, 51, 0) 75%
+  ), url(./images/virtual-reality.png) no-repeat right ;
+}
+
+.header__left {
+  width: 1310px;
+  height: 570px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__left_h1 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
 }
